@@ -2,7 +2,7 @@
   flex-direction: column-reverse;
 }
 #big-star-rating .productreviewsSummary:before {
-  top: 10;
+  top: 15;
 }
 #big-star-rating .productreviewsSummary .ts-stars-wrapper {
   position: relative;
