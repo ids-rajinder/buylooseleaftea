@@ -1,17 +1,86 @@
-#big-star-rating {
-    .productreviewsSummary {
-        &:before {
-            top:15;
+$primary-color:#e1efd5;
+$black-color:#000000;
+%font-size{
+    font-size:16px;
+}
+%font-600{
+    font-weight: 600;
+}
+.elementor-subtitle{
+
+}
+
+/*** home page design ***/
+
+//header toogle bar hide
+div#askka_core_side_area_opener-2 {
+    display: none;
+}
+#qodef-top-area-inner {
+    background-color:$primary-color;
+}
+.qodef-contact-form-7{
+    input,textarea {
+        resize: none;
+        &:focus{
+            color:$black-color;
         }
-        flex-direction: column-reverse;
-        .ts-stars-wrapper {
-            position: relative;
-            bottom:0px;
-            margin-left: -30px;
+        @extend %font-size;
+        color:$black-color;
+        @extend %font-600;
+        text-transform: capitalize;
+    }
+    .qodef-newsletter {
+        width: 80%;
+        margin-top: 4em;
+    }
+    button{
+        @extend %font-size;
+    }
+}
+.elementor-subtitle {
+    .qodef-m-subtitle {
+        @extend %font-size;
+    }
+}
+/** footer section design **/
+#qodef-page-footer.qodef-skin--dark{
+    input[type=email]{
+        &:focus{
+            color:$black-color;
         }
-        .ts-stars-reviewCount {
-            order: initial;
-            padding-bottom: 10px;
+        @extend %font-size;
+        color:$black-color;
+        @extend %font-600;
+        text-transform: capitalize;
+    }
+    button{
+        @extend %font-size;
+    }
+} 
+// top area footer design
+#qodef-page-footer-top-area-inner {
+    padding: 93px 0 90px;
+}
+// bottom area footer design
+#qodef-page-footer-bottom-area {
+    .qodef-col-num--2 {
+        .qodef-grid-item {
+            &:last-child {
+                text-align: right;
+                p{
+                    @extend %font-size;
+                    color:$black-color!important;
+                    @extend %font-600; 
+                }
+            }
+        }
+    }
+    .widget{
+        a {
+            @extend %font-size;
+            color:$black-color!important;
+            @extend %font-600;
         }
     }
 }

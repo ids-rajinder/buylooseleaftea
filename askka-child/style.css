@@ -1,17 +1,52 @@
-#big-star-rating .productreviewsSummary {
-  flex-direction: column-reverse;
+#qodef-page-footer-bottom-area .widget a, #qodef-page-footer-bottom-area .qodef-col-num--2 .qodef-grid-item:last-child p, #qodef-page-footer.qodef-skin--dark button, #qodef-page-footer.qodef-skin--dark input[type=email], .elementor-subtitle .qodef-m-subtitle, .qodef-contact-form-7 button, .qodef-contact-form-7 input, .qodef-contact-form-7 textarea {
+  font-size: 16px;
 }
-#big-star-rating .productreviewsSummary:before {
-  top: 15;
+
+#qodef-page-footer-bottom-area .widget a, #qodef-page-footer-bottom-area .qodef-col-num--2 .qodef-grid-item:last-child p, #qodef-page-footer.qodef-skin--dark input[type=email], .qodef-contact-form-7 input, .qodef-contact-form-7 textarea {
+  font-weight: 600;
 }
-#big-star-rating .productreviewsSummary .ts-stars-wrapper {
-  position: relative;
-  bottom: 0px;
-  margin-left: -30px;
+
+/*** home page design ***/
+div#askka_core_side_area_opener-2 {
+  display: none;
 }
-#big-star-rating .productreviewsSummary .ts-stars-reviewCount {
-  order: initial;
-  padding-bottom: 10px;
+
+#qodef-top-area-inner {
+  background-color: #e1efd5;
+}
+
+.qodef-contact-form-7 input, .qodef-contact-form-7 textarea {
+  resize: none;
+  color: #000000;
+  text-transform: capitalize;
+}
+.qodef-contact-form-7 input:focus, .qodef-contact-form-7 textarea:focus {
+  color: #000000;
+}
+.qodef-contact-form-7 .qodef-newsletter {
+  width: 80%;
+  margin-top: 4em;
+}
+/** footer section design **/
+#qodef-page-footer.qodef-skin--dark input[type=email] {
+  color: #000000;
+  text-transform: capitalize;
+}
+#qodef-page-footer.qodef-skin--dark input[type=email]:focus {
+  color: #000000;
+}
+#qodef-page-footer-top-area-inner {
+  padding: 93px 0 90px;
+}
+
+#qodef-page-footer-bottom-area .qodef-col-num--2 .qodef-grid-item:last-child {
+  text-align: right;
+}
+#qodef-page-footer-bottom-area .qodef-col-num--2 .qodef-grid-item:last-child p {
+  color: #000000 !important;
+}
+#qodef-page-footer-bottom-area .widget a {
+  color: #000000 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
