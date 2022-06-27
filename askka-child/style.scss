@@ -1,4 +1,17 @@
-body{
-    display: block;
-    background-color: none;
+#big-star-rating {
+    .productreviewsSummary {
+        &:before {
+            top:10;
+        }
+        flex-direction: column-reverse;
+        .ts-stars-wrapper {
+            position: relative;
+            bottom:0px;
+            margin-left: -30px;
+        }
+        .ts-stars-reviewCount {
+            order: initial;
+            padding-bottom: 10px;
+        }
+    }
 }
