@@ -11,7 +11,16 @@ $black-color:#000000;
 }
 
 /*** home page design ***/
-
+#qodef-woo-page .qodef-woo-ratings .qodef-m-star svg, 
+#yith-quick-view-modal .qodef-woo-ratings .qodef-m-star svg, 
+.qodef-woo-shortcode .qodef-woo-ratings .qodef-m-star svg {
+    width: 16px;
+}
+#qodef-woo-page .qodef-woo-ratings .qodef-m-star, 
+#yith-quick-view-modal .qodef-woo-ratings .qodef-m-star, 
+.qodef-woo-shortcode .qodef-woo-ratings .qodef-m-star {
+    color: #000;
+}
 //header toogle bar hide
 div#askka_core_side_area_opener-2 {
     display: none;
@@ -43,6 +52,21 @@ div#askka_core_side_area_opener-2 {
         @extend %font-size;
     }
 }
+
+// hide price and star-rating on the home page
+.price-rating-hide{
+    .qodef-woo-product-price,
+    .qodef-woo-ratings{
+        display:none
+    }
+}
+// custom products design
+.cs-porduct-design {
+    .qodef-woo-product-image {
+        box-shadow: 0px 1px 12px 3px #00000021;
+    }
+}
+
 /** footer section design **/
 #qodef-page-footer.qodef-skin--dark{
     input[type=email]{
